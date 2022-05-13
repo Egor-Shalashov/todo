@@ -1,0 +1,87 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background: #78909C;
+}
+.box{
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    max-width: 1000px;
+    min-height: 100px;
+    max-height: 600px;
+    margin: 50px auto;
+}
+
+.input_input{
+    width: 65%;
+}
+
+#create_a_task{
+    padding: 30px 20px;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    justify-content: space-between;
+}
+
+#create_a_task input{
+    height: 45px;
+    color: #455A64;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    width: 100%;
+}
+
+#create_a_task button{
+    font-size: 16px;
+    background-color: #455A64;
+    color: #ffffff;
+    height: 45px;
+    border-radius: 5px;
+    font-family: cursive;
+    border: none;
+    width: 30%;
+    margin-right: 32px;
+}
+
+#tasks{
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+    overflow: scroll;
+    max-height: 400px;
+}
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #E0E0E0;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.task span{
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button{
+    background-color: #455A64;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 65px;
+    border-radius: 5px;
+    font-family: cursive;
+}
